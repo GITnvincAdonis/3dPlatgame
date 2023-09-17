@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13601308711ec394096b25a409d1168e, type: 3}
+  m_Name: PlayerFields
+  m_EditorClassIdentifier: 
+  health: 100
+  stamina: 20
+  lightAttackDamage: 10
+  HeavyAttackDamage: 30
+  LightAttackDist: 20
+  HeavyAttackDist: 300
+  knockBackForce: 1000
+  attackRange: 3
+  sightRange: 5
+  bulletStamina: 50
+  bulletSpeed: 2000
+  groundDrag: 13
+  airDrag: 10
+  slerpSpeed: 500
+  moveSpeed: 4000
+  entHeight: 2
+  maxSlopeAngle: 40
+  flightStamina: 7
+  jumpTime: 15
+  fallMultiplier: 10
+  jumpMultiplier: 0.8
+  whatIsBulletBreakable:
+    serializedVersion: 2
+    m_Bits: 512
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 1032
+  whatIsEnemy:
+    serializedVersion: 2
+    m_Bits: 128
+  whatIsBulletSwitches:
+    serializedVersion: 2
+    m_Bits: 256
+  whatIsInteractable:
+    serializedVersion: 2
+    m_Bits: 2048
